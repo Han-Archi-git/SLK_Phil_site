@@ -2,7 +2,7 @@
   "name": "slk-&-philart-architects",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://slkphilart.com",
+  "homepage": "https://han-archi-git.github.io/SLK_Phil_site/",
   "type": "module",
   "scripts": {
     "dev": "vite",

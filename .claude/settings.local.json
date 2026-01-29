@@ -4,7 +4,9 @@
       "Bash(npm run dev:*)",
       "Bash(timeout 5 tail:*)",
       "Bash(exit 0)",
-      "Bash(timeout 5 type:*)"
+      "Bash(timeout 5 type:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nRemove custom domain configuration\n\nTemporarily remove CNAME file to use default GitHub Pages URL \\(han-archi-git.github.io/SLK_Phil_site/\\) until DNS is properly configured.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
