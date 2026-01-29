@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
                 <Phone className="w-6 h-6 text-white mt-1" />
                 <div>
                   <h4 className="font-bold text-lg mb-2 text-white">Phone</h4>
-                  <p className="text-neutral-400 font-light">02-323-9621 / 02-323-1220</p>
+                  <p className="text-neutral-400 font-light">02-323-9621 / 02-333-1220</p>
                 </div>
               </div>
 
