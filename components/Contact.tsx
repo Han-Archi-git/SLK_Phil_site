@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import mapPreview from '../assets/map_preview.png';
 
 const Contact: React.FC = () => {
   return (
@@ -52,7 +53,7 @@ const Contact: React.FC = () => {
           <div className="md:w-1/2 h-80 md:h-auto bg-neutral-900 relative group overflow-hidden rounded-[2rem] shadow-2xl border border-white/10">
             {/* Static Map Image (User Provided) */}
             <img
-              src="/map_preview.png"
+              src={mapPreview}
               alt="Map Location"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
