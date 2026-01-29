@@ -25,10 +25,10 @@ const Inquiry: React.FC = () => {
     setStatusMessage('');
 
     try {
-      // EmailJS configuration - Replace these with your actual values
-      const serviceId = 'service_siv1kru'; // Get from EmailJS dashboard
-      const templateId = 'template_m5wfsi8'; // Get from EmailJS dashboard
-      const publicKey = '7CF0D6NZ8-OL-UgRY'; // Get from EmailJS dashboard
+      // EmailJS configuration - using environment variables
+      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
       await emailjs.send(
         serviceId,
